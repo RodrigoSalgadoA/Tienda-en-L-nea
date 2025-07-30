@@ -34,9 +34,8 @@ Garantizar la coherencia en la recopilación de datos de usuarios/as antes de re
 ### 🔍 Actividades clave
 
 - Revisar registros individuales para detectar:
-  - Edades fuera de rango
   - Categorías mal escritas o inconsistentes
-  - Gasto total negativo o desalineado con las categorías
+  - Gastos de los usuarios
   - Campos vacíos o mal formateados
 - Proponer reglas de validación y limpieza
-- Documentar hallazgos y preparar los datos para el siguiente sprint
+- Documentar hallazgos y preparar los datos
