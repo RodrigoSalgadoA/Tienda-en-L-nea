@@ -1,48 +1,42 @@
-<div align="center">
+<<div align="center">
 
-# 🛒 Tienda-en-Línea
+# 📊 Proyecto de Análisis de Datos — Evaluación y Limpieza Inicial
 
-**Análisis de comportamiento de usuarios en una tienda en línea usando Python**
+**Sprint 1: Garantizando la calidad de los datos para un análisis confiable**
 
 </div>
 
 ---
 
-## 📌 Descripción del proyecto
+## 🧠 Contexto del proyecto
 
-Este proyecto consiste en analizar un conjunto de datos proporcionado por el cliente de una tienda en línea. El objetivo es identificar patrones de compra, segmentar usuarios y extraer conclusiones estratégicas que puedan mejorar la toma de decisiones del negocio.
-
-Utilizando herramientas como **Python**, **pandas**, **matplotlib**, y **seaborn**, se realiza un análisis exploratorio de datos (EDA), visualización de tendencias y evaluación de métricas clave.
+Como parte del equipo de análisis de datos, tu primera tarea es evaluar la calidad de una muestra de datos proporcionada por el cliente. Esta etapa es fundamental para asegurar que los datos estén listos para un análisis profundo en el segundo sprint, donde se responderán preguntas clave del negocio.
 
 ---
 
-## 🧠 Objetivos
+## 🛍️ Datos proporcionados por el cliente
 
-- Limpiar y preparar el dataset para análisis.
-- Identificar comportamientos de compra por usuario.
-- Detectar productos más vendidos y horarios de mayor actividad.
-- Evaluar métricas como frecuencia de compra, ticket promedio y recurrencia.
-- Proponer recomendaciones basadas en los hallazgos.
+El cliente nos ha entregado una lista en formato Python con la siguiente estructura:
 
----
-
-## 🛠️ Tecnologías utilizadas
-
-- 🐍 Python  
-- 📊 pandas, numpy  
-- 📈 matplotlib, seaborn  
-- 📁 Jupyter Notebook  
-- 🧮 SQL (para consultas complementarias)
+- `user_id`: Identificador único del usuario/a  
+- `user_name`: Nombre del usuario/a  
+- `user_age`: Edad del usuario/a  
+- `fav_categories`: Lista de categorías favoritas (ej. `'ELECTRONICS'`, `'SPORT'`, `'BOOKS'`)  
+- `total_spendings`: Lista de enteros que representan el gasto total en cada categoría favorita
 
 ---
 
-## 📊 Resultados esperados
+## 🧪 Store 1: Evaluación de Calidad de Datos
 
-- Visualizaciones claras del comportamiento de compra.
-- Insights sobre segmentación de clientes.
-- Recomendaciones para mejorar la estrategia comercial.
-- Posibles áreas de optimización en productos y horarios.
+**Objetivo:**  
+Garantizar la coherencia en la recopilación de datos de usuarios/as antes de realizar cualquier análisis.
 
----
+### 🔍 Actividades clave
 
-## 📂 Estructura del proyecto
+- Revisar registros individuales para detectar:
+  - Edades fuera de rango
+  - Categorías mal escritas o inconsistentes
+  - Gasto total negativo o desalineado con las categorías
+  - Campos vacíos o mal formateados
+- Proponer reglas de validación y limpieza
+- Documentar hallazgos y preparar los datos para el siguiente sprint
